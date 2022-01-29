@@ -16,7 +16,6 @@ public class CarpenterShopWorkflow {
                 shop.workOnItem(new Item(Long.parseLong(sc.nextLine())));
             }
             String s = sc.nextLine();
-            System.out.println(s);
             System.out.println(shop.workOnItem(new Item(Long.parseLong(s))));
         } catch(Exception e){
             System.out.println("INPUT_ERROR");

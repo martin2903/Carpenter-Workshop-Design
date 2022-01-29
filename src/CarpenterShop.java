@@ -8,6 +8,8 @@ class CarpenterShop{
     private Cabinet[] cabinets;
     private HashMap<Long,Item> outside;
     static int NUM_CABINETS;
+    final static int NEW_ITEM = -1;
+    final static int CONTAINED_ITEM = -2;
 
     public CarpenterShop(String[] cabinetsDescription) throws Exception{
         NUM_CABINETS= cabinetsDescription.length;
@@ -26,9 +28,9 @@ class CarpenterShop{
                 return i;
         }
         if(outside.containsKey(itemKey))
-            return -2;
+            return CONTAINED_ITEM;
 
-        return -1;
+        return NEW_ITEM;
     }
 
     public void addToClosestCabinet(Item item,int cabinetIndex){
@@ -55,12 +57,12 @@ class CarpenterShop{
             addToClosestCabinet(item,0);
             return String.valueOf(itemLocation+1);
         }
-        else if(itemLocation==-2){
+        else if(itemLocation==CONTAINED_ITEM){
             addToClosestCabinet(item,0);
             outside.remove(item.getKey());
             return "OUTSIDE";
         }
-        else if(itemLocation==-1){
+        else if(itemLocation==NEW_ITEM){
             addToClosestCabinet(item,0);
             return "NEW";
         }

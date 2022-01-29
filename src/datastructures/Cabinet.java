@@ -1,5 +1,4 @@
 package datastructures;
-
 import java.util.HashMap;
 
 public class Cabinet{
@@ -35,7 +34,7 @@ public class Cabinet{
     public Item takeArbitraryItem(long itemKey){
         size--;
         Item itemToRemove = storageMap.remove(itemKey);
-        itemToRemove.getNextItem().setNextItem(itemToRemove.getNextItem());
+        itemToRemove.getPrecedingItem().setNextItem(itemToRemove.getNextItem());
         itemToRemove.getNextItem().setPrecedingItem(itemToRemove.getPrecedingItem());
         return itemToRemove;
     }
@@ -83,7 +82,5 @@ public class Cabinet{
     public Item removeFromTail(){
         return takeArbitraryItem(tail.getPrecedingItem().getKey());
     }
-
-
 
 }

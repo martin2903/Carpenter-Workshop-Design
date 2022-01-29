@@ -13,7 +13,7 @@ public class Item {
     Item(){ }
 
     public long getKey() {
-        return key;
+        return this.key;
     }
 
     public void setKey(long key) {
@@ -21,7 +21,7 @@ public class Item {
     }
 
     public Item getPrecedingItem() {
-        return precedingItem;
+        return this.precedingItem;
     }
 
     public void setPrecedingItem(Item precedingItem) {
@@ -29,7 +29,7 @@ public class Item {
     }
 
     public Item getNextItem() {
-        return nextItem;
+        return this.nextItem;
     }
 
     public void setNextItem(Item nextItem) {

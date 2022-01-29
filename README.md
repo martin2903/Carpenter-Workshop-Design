@@ -41,4 +41,4 @@ The output of the your program should be one of the following:
 
 * package carpenter_shop_datastructures contains the datastructures used to model the process.
 * CarpenterShop contains the instance variables and methods representing the shop workflow.
-* CarpenterWorkFlow is where some of the example input found [here]() can be tested.
+* CarpenterWorkFlow is where some of the example input found int the test_data directory can be tested.

@@ -39,6 +39,6 @@ The output of the your program should be one of the following:
 
 # File description
 
-* package carpenter_shop_datastructures contains the datastructures used to model the process.
-* CarpenterShop contains the instance variables and methods representing the shop workflow.
-* CarpenterShopWorkFlow is where some of the example input found int the test_data directory can be tested.
+* package carpenter_shop_datastructures contains the carpenter_workshop.datastructures used to model the process.
+* carpenter_workshop.CarpenterShop contains the instance variables and methods representing the shop workflow.
+* CarpenterShopWorkFlow is where some of the example input found int the carpenter_workshop.test_data directory can be tested.

@@ -1,4 +1,4 @@
-package datastructures;
+package carpenter_workshop.datastructures;
 import java.util.HashMap;
 
 public class Cabinet{

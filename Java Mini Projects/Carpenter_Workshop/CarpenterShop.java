@@ -1,8 +1,8 @@
-package carpenter_workshop;
+package Carpenter_Workshop;
 
 import java.util.HashMap;
-import carpenter_workshop.datastructures.Item;
-import carpenter_workshop.datastructures.Cabinet;
+import Carpenter_Workshop.datastructures.Item;
+import Carpenter_Workshop.datastructures.Cabinet;
 
 
 

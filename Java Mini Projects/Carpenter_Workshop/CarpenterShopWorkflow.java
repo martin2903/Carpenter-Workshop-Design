@@ -1,6 +1,6 @@
-package carpenter_workshop;
+package Carpenter_Workshop;
 
-import carpenter_workshop.datastructures.Item;
+import Carpenter_Workshop.datastructures.Item;
 import java.util.Scanner;
 
 public class CarpenterShopWorkflow {

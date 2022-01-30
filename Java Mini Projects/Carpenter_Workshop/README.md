@@ -26,7 +26,7 @@ The goal of the mini-project is to model the process in code.
 0 < numerical key < 2^32
 ```
 **Output**
-The output of the your program should be one of the following:
+The output of the program should be one of the following:
 > - An integer representing the cabinet the last item (as specified by the last line of input) was taken from, ranging from 1 (nearest) to N (furthest)
 > - `NEW` if the item was newly created
 > - `OUTSIDE` if the item was outside
@@ -39,6 +39,6 @@ The output of the your program should be one of the following:
 
 # File description
 
-* package carpenter_shop_datastructures contains the carpenter_workshop.datastructures used to model the process.
-* carpenter_workshop.CarpenterShop contains the instance variables and methods representing the shop workflow.
-* CarpenterShopWorkFlow is where some of the example input found int the carpenter_workshop.test_data directory can be tested.
+* package datastructures contains the Carpenter_Workshop.datastructures used to model the process.
+* Carpenter_Workshop.CarpenterShop contains the instance variables and methods representing the shop workflow.
+* CarpenterShopWorkFlow is where some of the example input found int the Carpenter_Workshop.test_data directory can be tested.

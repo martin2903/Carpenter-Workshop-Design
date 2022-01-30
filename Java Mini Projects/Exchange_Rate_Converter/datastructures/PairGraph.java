@@ -1,5 +1,5 @@
-package exchange_rate_converter.datastructures;
-import exchange_rate_converter.InputParser;
+package Exchange_Rate_Converter.datastructures;
+import Exchange_Rate_Converter.utilities.InputParser;
 import java.util.HashMap;
 import java.util.Map;
 

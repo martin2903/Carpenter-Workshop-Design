@@ -1,8 +1,9 @@
-package exchange_rate_converter;
+package Exchange_Rate_Converter.utilities;
 
 
-import exchange_rate_converter.datastructures.Pair;
-import exchange_rate_converter.datastructures.PairGraph;
+import Exchange_Rate_Converter.datastructures.Pair;
+import Exchange_Rate_Converter.datastructures.PairGraph;
+import Exchange_Rate_Converter.utilities.InputParser;
 
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -14,7 +15,7 @@ public class RateCalculator {
     PairGraph pairGraph;
     private final int CANNOT_BE_CALCULATED = -1;
 
-    public RateCalculator(PairGraph pairGraph,InputParser parser){
+    public RateCalculator(PairGraph pairGraph, InputParser parser){
         this.toCalculate = parser.getPairToCalculate();
         this.pairGraph = pairGraph;
     }

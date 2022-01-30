@@ -1,4 +1,4 @@
-package exchange_rate_converter.datastructures;
+package Exchange_Rate_Converter.datastructures;
 
 
 public class Pair {

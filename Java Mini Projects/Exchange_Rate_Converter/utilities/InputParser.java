@@ -1,6 +1,6 @@
-package exchange_rate_converter;
+package Exchange_Rate_Converter.utilities;
 
-import exchange_rate_converter.datastructures.Pair;
+import Exchange_Rate_Converter.datastructures.Pair;
 
 public class InputParser {
     private Pair pairToCalculate;

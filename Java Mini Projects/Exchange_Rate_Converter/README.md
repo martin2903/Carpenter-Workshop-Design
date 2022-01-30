@@ -18,3 +18,9 @@ The output of the program should be one of the following:
   * The edges of the graph represent the exchange rates between them.
 * Breadth First Search is used to traverse the graph calculating the exchange rates on the path between the two sought after currencies.
 * If no edge connecting the two currencies exists, the exchange rate cannot be determined.
+
+# File description
+* package datastructures contains the data structures used to aid the translation of the task into a graph problem.
+* package utilities contains:
+  * InputParser: used to aid the parsing of the provided example input.
+  * RateCalculator: contains methods for traversing the created graph and determining sought after exchange rate using BFS.

@@ -1,6 +1,8 @@
-package exchange_rate_converter;
+package Exchange_Rate_Converter;
 
-import exchange_rate_converter.datastructures.PairGraph;
+import Exchange_Rate_Converter.datastructures.PairGraph;
+import Exchange_Rate_Converter.utilities.InputParser;
+import Exchange_Rate_Converter.utilities.RateCalculator;
 
 public class Test {
     public static void main(String[] args) {

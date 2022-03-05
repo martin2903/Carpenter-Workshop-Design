@@ -34,7 +34,7 @@ The output of the program should be one of the following:
 
 # Approach taken
 
-* A doubly linked list like data structure was designed to represent the workbench. With the help of a HashMap for tracking each item, deletion and insertion is achieved in constant time O(1). Impliedly, picking up an item and leaving it at the correct place is done with maximum efficiency. 
+* A doubly linked list-like data structure was designed to represent the workbench. With the help of a HashMap for tracking each item, deletion and insertion is achieved in constant time O(1). Impliedly, picking up an item and leaving it at the correct place is done with maximum efficiency. 
 * Storing a new item and reordering the cabinets after an item is picked up is done using a recursive function. If the space in each is exceeded, an the item is stored in another HashMap representing 'outside'.
 
 # File description
